@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewUsers</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        .card-registration .select-input.form-control[readonly]:not([disabled]) {
+        font-size: 1rem;
+        line-height: 2.15;
+        padding-left: .75em;
+        padding-right: .75em;
+        }
+        .card-registration .select-arrow {
+        top: 13px;
+        }
+    </style>
+</head>
+<body style="margin-top: 50px;">
+    <div class="container-xl">
+        <table style="border: 1px solid black none;width: 100%; margin: 60px;">
+            <tr style="height: 650px;">
+                <td style="width: 25%;">
+                    <div class="col-sl-8 d-none d-xl-block">
+                        <img src="Register.png"
+                          alt="Sample photo" class="img-fluid"
+                          style="border-top-left-radius: .25rem; border-bottom-left-radius: .25rem;" />
+                    </div>
+                </td>
+                <td style="border:1px solid black none;width: 60%;">
+                    <section>    
+                              <div >
+                                <div class="row g-0">
+                                  
+                                  <div class="col-xl-6">
+                                    <div class="card-body p-md-5 text-black">
+                                    <h3 class="mb-5 text-uppercase">Create An Account</h3>
+                      
+                                    <div class="form-outline mb-3">
+                                        <input type="text" name="uid" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="UserID">
+                                    </div>
+                                      
+                                    <div class="form-outline mb-3">
+                                      <input type="password" name="psw" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="password">
+                                    </div>
+
+                                    <div class="form-outline mb-3">
+                                        <input type="text" name="unm" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="UserName">
+                                    </div>
+
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text" id="basic-addon1">UserType</span>
+                                        <input type="text" class="form-control" aria-label="Username" placeholder="Customer" aria-describedby="basic-addon1" disable readonly>
+                                    </div>
+
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text" id="basic-addon1">UserStatus</span>
+                                        <input type="text" class="form-control" aria-label="Username" placeholder="Active" aria-describedby="basic-addon1" disable readonly>
+                                    </div>
+
+                                    <div class="form-outline mb-3">
+                                        <input type="number" name="ano" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Account Number">
+                                    </div>
+
+                                    <div class="form-outline mb-3">    
+                                          <select class="form-control">
+                                            <option selected disabled>Branch</option>
+                                            <option value="1">Mumbai</option>
+                                            <option value="2">Pune</option>
+                                            <option value="3">Nagpur</option>
+                                            <option value="4">Amravti</option>
+                                          </select>   
+                                    </div>
+
+                                    <div class="form-outline mb-3">
+                                        <input type="tel" name="mob" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Mobile No">
+                                    </div>
+                      
+                                    <div class="d-grid gap-2">
+                                        <button type="button"
+                                          class="btn btn-outline-info">Register</button>
+                                    </div>
+                                      
+                                    <p class="text-center text-muted mt-4 mb-0">Have already an account? <a href="#!"
+                                        class="fw-bold text-body"><u>Login here</u></a>
+                                    </p>
+                                    
+                      
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+                          
+                        
+                      </section>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
